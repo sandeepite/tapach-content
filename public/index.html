@@ -1,0 +1,189 @@
+<html>
+    <head>
+        <title>This is advanced mini web</title>
+        <style>
+            body {color: #3f312e; 
+                  background: #0ecd078; 
+                  font: 14px helvetica,arial,san-serif;
+            }
+            a{
+                color: #9F9386;
+            }
+            #header {
+                width: 960px;
+                min-height: 150px;
+                margin: 0 auto;
+                background:gray;
+            }
+            #navigation {
+                width: 960px;
+                margin: 0 auto;
+                position: relative;
+                top: 5px;
+            }
+            #navigation ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none; 
+            }
+            #navigation ul li{
+                display: inline;
+                margin-right: 3px ;
+            }
+            #navigation ul li a {
+                background: #fbe49b; 
+                text-decoration: none;
+                padding: 10px 10px 6px 10px;
+                text-transform: uppercase; border-left: 1px solid #e4bc3f;
+                border-top: 1px solid #e4bc3f;
+                border-right: 1px solid #e4bc3f; 
+                background-color: #fbe49b; 
+            }
+            #navigation ul li.current_page_item a, #navigation ul li a:hover {
+                color: #3f312e;
+                border-left: 1px solid #fff;
+                border-top: 1px solid #fff;
+                border-right: 1px solid #fff;
+                background: #fff url('http://www.tapach.com') 
+            }
+            #container {
+                overflow: auto;
+                        width: 960px; 
+                        margin: 0 auto;
+                        padding: 10px;
+            }
+            #content {
+                width: 960px;
+                min-height: 400px;
+                margin: 0 auto;
+                background: #DCDDED;
+            }
+            #contentleft {
+                width:580px;
+                float: left;
+                margin-right: 20px;
+                padding: 20px;
+                
+            }
+            #contentleft h1{
+                font-size: 24px; 
+                margin-top: 0;
+            }
+            #sidebar {
+                width: 280px;
+                float: left;
+                
+            }
+            .sidebar-element{
+                overflow: auto;
+                margin-top: 15px;
+                
+            }
+            #sidebar h3{
+                color: #fff;
+                background: darkcyan;
+                padding: 7px 10px;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+            #sidebar ul{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            #sidebar ul li{
+                margin: 0 0 7px 0;
+                
+            }
+            #footer {
+                width: 960px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            #footer ul{
+                margin: 15px 0 0 0;
+                padding: 0;
+                list-style-type: none;    
+            }
+            #footer ul li{
+                display: inline;
+                margin-right: 5px;
+            }
+            #footer ul li a{
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            #footer ul li a:hover {
+                text-decoration: underline;
+                
+            }
+            #footer p{
+                font-weight: bold;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div id="header">
+            This is header section
+        </div>
+
+        <div id="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Solutions</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+
+        </div><!-- navigation-->
+
+        <div id="container">
+
+            <div id="content">
+                <div id="contentleft">
+                    <h1>Welcome to my mini website</h1>
+                    <p>By far the easiest way of getting git installed and ready to use is by using Ubuntu's default repositories. This is the fastest method, but the version may be older than the newest version. If you need the latest release, consider following the steps to compile git from source.</p>
+                </div> <!-- contentleft -->
+
+                <div id="sidebar">
+                    <div class="sidebar-element">
+                        <h3>About me</h3>
+                        <p>This is an about me section you could create for your own site, tell a bit about your self.
+                        <p>It's totally optional, but prety cool</p>
+                    </div>
+
+                    <div class="sidebar-element">
+                        <h3>Trend News</h3>
+                        <p>Write about trending current news in world
+                        <p>Its only for most popular news content</p>
+                        <ul>
+                            <li><a href="">List item #1</a></li>
+                            <li><a href="">List item #2</a></li>
+                            <li><a href="">List item #3</a></li>
+                        </ul>
+                    </div>
+
+
+                </div><!-- slidebar-->
+            </div><!--content -->
+        </div> <!-- container -->
+        <div id="footer">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Solutions</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+     </ul>
+            <p>&COPY;2016 WebsitetempFooter</p>
+        </div><!-- footer-->
+
+    </body>
+</html>
+
